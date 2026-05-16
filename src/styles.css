@@ -162,7 +162,7 @@
     font-family: var(--font-mono);
   }
   .text-gradient-cyan {
-    background: linear-gradient(135deg, oklch(0.52 0.05 60), oklch(0.42 0.08 50));
+    background: linear-gradient(135deg, oklch(0.75 0.13 250), oklch(0.90 0.04 250));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
