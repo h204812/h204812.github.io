@@ -2,6 +2,17 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, ArrowRight } from "lucide-react";
 
+function LeetCodeIcon({ size = 24 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M13.483 0a1.875 1.875 0 0 0-1.323.549l-8.483 8.484a1.875 1.875 0 0 0 0 2.651l4.358 4.358a1.875 1.875 0 0 0 2.651 0l8.483-8.484A1.875 1.875 0 0 0 20.354 4.13l-4.358-4.358A1.875 1.875 0 0 0 13.483 0z" />
+      <path d="M6.875 12.354l4.358 4.358" />
+      <path d="M13.483 6.875l4.358 4.358" />
+      <path d="M2.625 17.771l4.358 4.358" />
+    </svg>
+  );
+}
+
 const roles = ["Software Engineer", "Problem Solver", "NIT Warangal Grad"];
 
 export function Hero() {
@@ -89,6 +100,15 @@ export function Hero() {
               className="text-muted-foreground transition-colors hover:text-primary"
             >
               <Linkedin size={24} />
+            </a>
+            <a
+              href="https://leetcode.com/u/hrushi2048/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LeetCode"
+              className="text-muted-foreground transition-colors hover:text-primary"
+            >
+              <LeetCodeIcon size={24} />
             </a>
           </div>
         </motion.div>
