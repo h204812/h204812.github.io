@@ -1,6 +1,17 @@
 import { Section } from "./Section";
 import { Mail, Github, Linkedin } from "lucide-react";
 
+function LeetCodeIcon({ size = 24 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M13.483 0a1.875 1.875 0 0 0-1.323.549l-8.483 8.484a1.875 1.875 0 0 0 0 2.651l4.358 4.358a1.875 1.875 0 0 0 2.651 0l8.483-8.484A1.875 1.875 0 0 0 20.354 4.13l-4.358-4.358A1.875 1.875 0 0 0 13.483 0z" />
+      <path d="M6.875 12.354l4.358 4.358" />
+      <path d="M13.483 6.875l4.358 4.358" />
+      <path d="M2.625 17.771l4.358 4.358" />
+    </svg>
+  );
+}
+
 const cards = [
   {
     icon: Mail,
@@ -19,6 +30,12 @@ const cards = [
     label: "LinkedIn",
     value: "hrushikreddy204812",
     href: "https://www.linkedin.com/in/hrushikreddy204812/",
+  },
+  {
+    icon: LeetCodeIcon,
+    label: "LeetCode",
+    value: "hrushi2048",
+    href: "https://leetcode.com/u/hrushi2048/",
   },
 ];
 
