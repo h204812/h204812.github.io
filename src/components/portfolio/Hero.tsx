@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, ArrowRight } from "lucide-react";
 
-const roles = ["Software Engineer", "Backend Developer", "Problem Solver", "NIT Warangal Grad"];
+const roles = ["Software Engineer", "Problem Solver", "NIT Warangal Grad"];
 
 export function Hero() {
   const [text, setText] = useState("");
