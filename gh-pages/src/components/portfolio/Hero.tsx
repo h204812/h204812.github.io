@@ -101,6 +101,15 @@ export function Hero() {
             >
               <Linkedin size={24} />
             </a>
+            <a
+              href="https://leetcode.com/u/hrushi2048/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LeetCode"
+              className="text-muted-foreground transition-colors hover:text-primary"
+            >
+              <LeetCodeIcon size={24} />
+            </a>
           </div>
         </motion.div>
       </div>
