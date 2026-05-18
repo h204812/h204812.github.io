@@ -29,7 +29,7 @@ export function About() {
             <span className="text-primary">Zinnia</span>, where I'm honing my skills in building real-world systems.
           </p>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
-            I'm passionate about <span className="text-foreground">distributed systems</span>, backend engineering, and I'm actively diving into AI tools and frameworks. Outside of code, I enjoy reading books (my new favorite hobby!), playing cricket, and smashing birdies on the badminton court.
+          I'm passionate about <span className="text-foreground">distributed systems</span> and software engineering, and I'm actively diving into AI tools and frameworks. Outside of code, I enjoy reading books (my new favorite hobby!), playing cricket, and smashing birdies on the badminton court.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             {facts.map((f) => (
