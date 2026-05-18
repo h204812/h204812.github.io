@@ -46,7 +46,7 @@ export function Contact() {
       title="Let's Connect"
       subtitle="Whether you want to collaborate, have an opportunity to share, or just want to say hi — my inbox is open!"
     >
-      <div className="grid gap-6 sm:grid-cols-3">
+      <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-4">
         {cards.map((c) => {
           const Icon = c.icon;
           const external = c.href.startsWith("http");
